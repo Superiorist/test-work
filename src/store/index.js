@@ -1,12 +1,9 @@
 import { createStore } from 'vuex'
+import cards from './cards'
+import timer from './timer'
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    cards, timer
   }
 })
